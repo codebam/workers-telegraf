@@ -3,13 +3,23 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "build": "webpack -c webpack.config.js",
     "deploy": "wrangler deploy",
     "dev": "wrangler dev",
     "start": "wrangler dev"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20230419.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "typescript": "^5.0.4",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@cfworker/web": "^1.14.0",
+    "@cloudflare/ai": "^1.0.22",
+    "cfworker-middleware-telegraf": "^2.0.2",
+    "telegraf": "^4.14.0"
   }
 }
