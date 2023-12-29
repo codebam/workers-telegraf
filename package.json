@@ -14,7 +14,7 @@
     "typescript": "^5.0.4",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4",
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.22.1"
   },
   "dependencies": {
     "@cfworker/web": "^1.14.0",
