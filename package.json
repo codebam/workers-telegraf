@@ -9,17 +9,17 @@
     "start": "wrangler dev"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20230419.0",
-    "node-polyfill-webpack-plugin": "^2.0.1",
-    "typescript": "^5.0.4",
-    "webpack": "^5.89.0",
+    "@cloudflare/workers-types": "^4.20240502.0",
+    "node-polyfill-webpack-plugin": "^3.0.0",
+    "typescript": "^5.4.5",
+    "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
-    "wrangler": "^3.0.0"
+    "wrangler": "^3.55.0"
   },
   "dependencies": {
     "@cfworker/web": "^1.14.0",
     "@cloudflare/ai": "^1.0.22",
     "cfworker-middleware-telegraf": "^2.0.2",
-    "telegraf": "^4.14.0"
+    "telegraf": "^4.16.3"
   }
 }
